@@ -36,5 +36,5 @@ conda activate snakemake
 ```
  - Run snakemake with:
 ```bash
-snakemake -s seekdeep_nanopore_general.smk --cores 4
+snakemake -s merge_probe_sets.smk --cores 4
 ```
