@@ -19,7 +19,8 @@ conda create -c conda-forge -c bioconda -n snakemake snakemake
 ```
 
 ## Usage:
- - Download the contents of this git repo to a folder on your machine.
+ - Download the contents of this git repo to a folder on your machine and cd
+ into that folder (so that "ls" shows merge_probe_sets.smk).
  - Open the merge_probe_sets.yaml file and enter the name of the new project
 folder you'd like to create in the "output_folder" variable (this can be a
 relative or absolute path).
