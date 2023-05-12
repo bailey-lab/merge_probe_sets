@@ -3,7 +3,7 @@ This program is for people who want to run miptools wrangler on a subset of
 probes from several different probesets. It takes (or excludes) a subset of
 probes of interest from several different mip_arms files, and produces a new
 project folder containing a merged mip_arms file and mipsets.csv file that have
-only the probes of interest. This new merged folder can then serve as a project
+only the probes you want. This new merged folder can then serve as a project
 folder for running miptools wrangler. For each merger, you'll need to provide
 (in the merge_probe_sets.yaml file):
  - a list of mip_arms files you'd like to merge
