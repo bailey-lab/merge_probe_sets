@@ -23,7 +23,8 @@ conda create -c conda-forge -c bioconda -n snakemake snakemake
  into that folder (so that "ls" shows merge_probe_sets.smk).
  - Open the merge_probe_sets.yaml file and enter the name of the new project
 folder you'd like to create in the "output_folder" variable (this can be a
-relative or absolute path).
+relative or absolute path). Use a text editor that outputs unix line endings
+(e.g. vscode, notepad++, gedit, micro, emacs, vim, vi, etc.).
  - list locations of arms files you want to use under the "mip_arms_files"
  variable
  - tell the program if you'd like to "include" or "exclude" a list of probes
