@@ -48,7 +48,7 @@ unused_mips=probe_names-seen_mips
 if len(unused_mips)>0:
 	print('WARNING: The following mips from your probe_name list were not found'
 	'in any arms file.')
-	print('\n'.join(list(unused_probes)))
+	print('\n'.join(list(unused_mips)))
 	print('If you care about these mips, you should either change their names'
 	' to match existing arms file entries, or add arms files that contain these'
 	'mips.')
