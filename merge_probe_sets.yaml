@@ -1,6 +1,7 @@
 output_folder: merged_project_resources_test_run #name of new merged probeset
 
-#mip_arms files to build new merged mip_arms from
+#mip_arms files to build new merged mip_arms from. Every mip_arms file needs to
+#have a corresponding call_info.json file in the same folder.
 mip_arms_files:
   - /nfs/jbailey5/baileyweb/bailey_share/resources/MIP_project_resources/DR2/mip_ids/redesigns-merged_mip_arms
   - /nfs/jbailey5/baileyweb/bailey_share/resources/MIP_project_resources/DR1/mip_ids/current_mip_arms
@@ -8,8 +9,8 @@ mip_arms_files:
   - /nfs/jbailey5/baileyweb/mconrad2/MIP_design/Agam_firstdesign/mip_ids/current_mip_arms
 #merged_probe_info_file: probe_info.csv
 
-probe_names_file: input_files/mip_ids.txt #mip names of probes of interest
-#(names must match mip_ids column of corresponding mip arms files)
+probe_names_file: input_files/mip_families.txt #mip names of probes of interest
+#(names must match mip_family column of corresponding mip arms files)
 
 #would you like to include only the probes from the probe_seqs file or exclude
 #only the probes from the probe_seqs file? Options are 'include' or 'exclude'
