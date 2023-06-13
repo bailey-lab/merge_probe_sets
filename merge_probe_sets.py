@@ -1,7 +1,7 @@
 import json
 probe_names=set([line.strip() for line in open(snakemake.input['probe_names'])])
 mip_arms_files=snakemake.input['mip_arms_files']
-output_probe_set=snakemake.params['output_probe_set']
+output_probe_set=snakemake.params['output_probe_set'].split('/')[-1]
 include_exclude=snakemake.params['include_exclude']
 merged_mip_arms=open(snakemake.output['merged_mip_arms_file'], 'w')
 #merged_probe_info=open(snakemake.output['merged_probe_info'], 'w')
