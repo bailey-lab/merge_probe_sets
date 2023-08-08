@@ -11,7 +11,7 @@ folder for running miptools wrangler. For each merger, you'll need to provide
 
 ## Installation:
 Install conda (if you don't already have it) with:
-https://github.com/conda-forge/miniforge#mambaforge
+[https://github.com/conda-forge/miniforge#mambaforge](https://github.com/conda-forge/miniforge#unix-like-platforms-mac-os--linux)
 
 Install snakemake in an environment called snakemake with:
 ```bash
