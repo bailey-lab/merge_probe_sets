@@ -15,7 +15,7 @@ Install conda (if you don't already have it) with:
 
 Install snakemake in an environment called snakemake with:
 ```bash
-conda create -c conda-forge -c bioconda -n snakemake snakemake
+mamba create -c conda-forge -c bioconda -n snakemake snakemake
 ```
 
 ## Usage:
