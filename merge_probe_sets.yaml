@@ -1,3 +1,7 @@
+#make sure the final folder (at the end of the path of the output folder)
+#matches the final name you'd like to give your probe-set i.e. if final name of
+#probeset is DR23KE, the bottom layer folder name needs to be DR23KE and not
+#DR23KE_mips or mips_for_DR23KE
 output_folder: /nfs/jbailey5/baileyweb/asimkin/tes_2017_mikalayi/miptools/heome96_troubleshooting/HEOME96 #name of new merged probeset
 
 #mip_arms files to build new merged mip_arms from. Every mip_arms file needs to
