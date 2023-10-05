@@ -55,7 +55,7 @@ def parse_call_info(arms_file, overall_json_dict):
 	return overall_json_dict
 
 merged_mipsets.write(output_probe_set+'\n')
-merged_mipsets.write('mip_arms\n')
+merged_mipsets.write('mip_arms.txt\n')
 
 overall_json_dict={}
 for arms_file in mip_arms_files:

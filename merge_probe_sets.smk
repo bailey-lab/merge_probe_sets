@@ -29,7 +29,7 @@ rule merge_probe_sets:
 		output_probe_set=config['output_folder'],
 		include_exclude=config['include_exclude']
 	output:
-		merged_mip_arms_file=config['output_folder']+'/mip_ids/mip_arms',
+		merged_mip_arms_file=config['output_folder']+'/mip_ids/mip_arms.txt',
 #		merged_probe_info=config['output_folder']+'/mip_ids/'+config['merged_probe_info_file'],
 		merged_mipsets=config['output_folder']+'/mip_ids/mipsets.csv',
 		call_info=config['output_folder']+'/mip_ids/call_info.json'
