@@ -2,7 +2,7 @@ configfile: 'merge_probe_sets.yaml'
 
 rule all:
 	input:
-		merged_mip_arms_file=config['output_folder']+'/mip_ids/mip_arms',
+		merged_mip_arms_file=config['output_folder']+'/mip_ids/mip_arms.txt',
 		copied_yaml=config['output_folder']+'/run_settings/merge_probe_sets.yaml'
 
 rule copy_files:
